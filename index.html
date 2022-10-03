@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+</head>
+<body>
+  <aside class="menu">
+    <input type="checkbox" id="toggle-menu" hidden />
+    <label for="toggle-menu" class="dark-bg"></label>
+    <div class="menu__full">
+      <div class="menu__top">
+        <i class="fa-solid fa-bars menu__left-menu menu__opener"></i>
+        <label for="toggle-menu" class="fa-solid fa-x menu__left-menu menu__closer"></label>
+        <img
+          src="./images/yt-logo.png"
+          alt="YT"
+          class="menu__left-logo"
+        />
+      </div>
+      <div class="menu__links-container">
+        <div class="menu__links">
+          <a href="#" class="menu__link active">
+            <i class="fa-solid fa-house menu__link-icon"></i>
+            <span class="menu__link-name">Home</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-compass menu__link-icon"></i>
+            <span class="menu__link-name">Explore</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-brands fa-youtube menu__link-icon"></i>
+            <span class="menu__link-name">Shorts</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-radio menu__link-icon"></i>
+            <span class="menu__link-name">Subscriptions</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-compact-disc menu__link-icon"></i>
+            <span class="menu__link-name">Library</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-clock-rotate-left menu__link-icon"></i>
+            <span class="menu__link-name">History</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-play menu__link-icon"></i>
+            <span class="menu__link-name">Your videos</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-clock menu__link-icon"></i>
+            <span class="menu__link-name">Watch later</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-thumbs-up menu__link-icon"></i>
+            <span class="menu__link-name">Liked videos</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <h3 class="menu__links-title">SUBSCRIPTIONS</h3>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/channels/1.jpg"
+              alt="ESL JAM"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">ESL JAM</span>
+          </a>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/channels/2.jpg"
+              alt="FunGamesWithMe"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">FunGamesWithMe</span>
+          </a>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/channels/3.jpg"
+              alt="ESL JAM"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">Reckless Gameplay</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-circle-plus menu__link-icon"></i>
+            <span class="menu__link-name">Browse channels</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <h3 class="menu__links-title">Explore</h3>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-gamepad menu__link-icon"></i>
+            <span class="menu__link-name">Gaming</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-headset menu__link-icon"></i>
+            <span class="menu__link-name">Live</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-vest-patches menu__link-icon"></i>
+            <span class="menu__link-name">Fashion & Beauty</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-graduation-cap menu__link-icon"></i>
+            <span class="menu__link-name">Learning</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-trophy menu__link-icon"></i>
+            <span class="menu__link-name">Sports</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <h3 class="menu__links-title">MORE FROM YOUTUBE</h3>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/yt/studio.png"
+              alt="ESL JAM"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">Creator Studio</span>
+          </a>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/yt/music.png"
+              alt="FunGamesWithMe"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">YouTube Music</span>
+          </a>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/yt/kids.png"
+              alt="ESL JAM"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">YouTube Kids</span>
+          </a>
+          <a href="#" class="menu__link">
+            <img
+              src="./images/yt/tv.png"
+              alt="ESL JAM"
+              class="menu__link-img"
+            />
+            <span class="menu__link-name">YouTube TV</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-gear"></i>
+            <span class="menu__link-name">Settings</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-flag"></i>
+            <span class="menu__link-name">Report history</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-circle-question"></i>
+            <span class="menu__link-name">Help</span>
+          </a>
+          <a href="#" class="menu__link">
+            <i class="fa-solid fa-message"></i>
+            <span class="menu__link-name">Send feedback</span>
+          </a>
+        </div>
+        <div class="menu__links">
+          <div class="menu__bottom-links">
+            <a href="#" class="menu__bottom-link">About</a>
+            <a href="#" class="menu__bottom-link">Copyright</a>
+            <a href="#" class="menu__bottom-link">Contact us</a>
+            <a href="#" class="menu__bottom-link">Creators</a>
+            <a href="#" class="menu__bottom-link">Advertise</a>
+            <a href="#" class="menu__bottom-link">Developers</a>
+          </div>
+          <div class="menu__bottom-links">
+            <a href="#" class="menu__bottom-link">Terms</a>
+            <a href="#" class="menu__bottom-link">Privacy</a>
+            <a href="#" class="menu__bottom-link">Policy & Safety</a>
+            <a href="#" class="menu__bottom-link">How YouTube works</a>
+            <a href="#" class="menu__bottom-link">Test new features</a>
+          </div>
+          <span class="menu__copyright">© 2022 Google LLC</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu__short">
+      <label for="toggle-menu" class="fa-solid fa-bars menu__short-btn"></label>
+      <a href="#" class="menu__short-link">
+        <i class="fa-solid fa-house menu__short-link-icon"></i>
+        <span class="menu__short-link-name">Home</span>
+      </a>
+      <a href="#" class="menu__short-link">
+        <i class="fa-solid fa-compass menu__short-link-icon"></i>
+        <span class="menu__short-link-name">Explore</span>
+      </a>
+      <a href="#" class="menu__short-link">
+        <i class="fa-brands fa-youtube menu__short-link-icon"></i>
+        <span class="menu__short-link-name">Shorts</span>
+      </a>
+      <a href="#" class="menu__short-link">
+        <i class="fa-solid fa-radio menu__short-link-icon"></i>
+        <span class="menu__short-link-name">Subscriptions</span>
+      </a>
+    </div>
+  </aside>
+
+  <header class="header">
+    <div class="header__top">
+      <label for="toggle-menu" class="fa-solid fa-bars menu__short-btn"></label>
+      <img
+        src="./images/yt-logo.png"
+        alt="Yt logo"
+        class="header__logo"
+      />
+      <div class="header__search">
+        <form class="header__search-form">
+          <input
+            type="text"
+            placeholder="Search"
+            class="header__search-input"
+          />
+          <button type="button" class="header__search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <button class="header__search-micro">
+          <i class="fa-solid fa-microphone"></i>
+        </button>
+      </div>
+      <div class="header__right">
+        <i class="fa-solid fa-video header__right-icon"></i>
+        <i class="fa-regular fa-bell header__right-icon"></i>
+        <img
+          src="./images/user-logo.jpg"
+          alt="Im"
+          class="header__right-logo"
+        />
+      </div>
+    </div>
+    <div class="header__recs-wrapper">
+      <div class="header__recs hide-scrollbar">
+        <div class="header__recs-btns">
+          <button class="header__recs-btn">All</button>
+          <button class="header__recs-btn">Mixes</button>
+          <button class="header__recs-btn">Music</button>
+          <button class="header__recs-btn">Gaming</button>
+          <button class="header__recs-btn">Website</button>
+          <button class="header__recs-btn">Live</button>
+          <button class="header__recs-btn">Sales</button>
+          <button class="header__recs-btn">Reckless Getaway 2</button>
+          <button class="header__recs-btn">Podcasts</button>
+          <button class="header__recs-btn">Motivation</button>
+          <button class="header__recs-btn">Python</button>
+          <button class="header__recs-btn">Beats</button>
+          <button class="header__recs-btn">Computers</button>
+          <button class="header__recs-btn">Comedy</button>
+          <button class="header__recs-btn">Electronic Music</button>
+          <button class="header__recs-btn">Role-Playing Games</button>
+          <button class="header__recs-btn">Recently uploaded</button>
+          <button class="header__recs-btn">Watched</button>
+          <button class="header__recs-btn">New to you</button>
+        </div>
+      </div>
+      <div class="header__recs-shadow">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+  </header>
+
+  <main class="videos">
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="videos__box">
+      <div class="videos__box-img">
+        <img
+          src="./images/videos/1.webp"
+          alt="Central Cee - Doja (but it's sad)"
+        />
+        <span class="videos__box-duration">3:21</span>
+        <span class="videos__box-text">Keep hovering to play</span>
+      </div>
+      <div class="videos__info">
+        <img
+          src="./images/channels/1.jpg"
+          alt="Pamp Beats"
+          class="videos__info-img"
+        />
+        <div class="videos__content">
+          <h4 class="videos__content-title">Central Cee - Doja (but it's sad)</h4>
+          <span class="videos__content-channel">pAmP Beats</span>
+          <span class="videos__content-meta">565K views • 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+</body>
+</html>
