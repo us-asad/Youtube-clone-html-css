@@ -273,6 +273,11 @@ a {
   background: #181818;
   border-radius: 50%;
   cursor: pointer;
+  transition: .3s;
+}
+
+.header__search-micro:hover {
+  background-color: #2b2b2b;
 }
 
 .header__right {
